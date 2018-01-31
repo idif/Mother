@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Other packs/RTS Pack/Scenes/FullScene.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 78f24e7cf7dcf5c4db9fae602089755b
+  - enabled: 0
+    path: Assets/Other packs/RTS Pack/Scenes/DemoScene.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: e034455d755fe9748bae054d0fbbb4cb
+  - enabled: 1
+    path: Assets/Scenes/Spaceship 1.unity
+    guid: 086b69fb39369a24a9ac8b003b90f840

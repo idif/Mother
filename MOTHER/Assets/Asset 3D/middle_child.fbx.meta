@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 20d90065c680df248af242df7588f659
+timeCreated: 1495015029
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: cil_l
+    100004: cil_r
+    100006: eye_l
+    100008: eye_r
+    100010: eyevbrow_r
+    100012: hear_l
+    100014: hear_r
+    100016: middl_child
+    100018: //RootNode
+    100020: middle_child
+    100022: model01
+    100024: PM3D_hairMerged_Extract10:Group42068
+    100026: PM3D_hairMerged_Extract11:Group19934
+    100028: PM3D_hairMerged_Extract12:Group57685
+    100030: PM3D_hairMerged_Extract7:Group3718
+    100032: PM3D_hairMerged_Extract8:Group25445
+    100034: PM3D_hairMerged_Extract9:Group1628
+    100036: PM3D_head_middle_child_1:Group27501
+    400000: body
+    400002: cil_l
+    400004: cil_r
+    400006: eye_l
+    400008: eye_r
+    400010: eyevbrow_r
+    400012: hear_l
+    400014: hear_r
+    400016: middl_child
+    400018: //RootNode
+    400020: middle_child
+    400022: model01
+    400024: PM3D_hairMerged_Extract10:Group42068
+    400026: PM3D_hairMerged_Extract11:Group19934
+    400028: PM3D_hairMerged_Extract12:Group57685
+    400030: PM3D_hairMerged_Extract7:Group3718
+    400032: PM3D_hairMerged_Extract8:Group25445
+    400034: PM3D_hairMerged_Extract9:Group1628
+    400036: PM3D_head_middle_child_1:Group27501
+    2300000: body
+    2300002: cil_l
+    2300004: cil_r
+    2300006: eye_l
+    2300008: eye_r
+    2300010: eyevbrow_r
+    2300012: hear_l
+    2300014: hear_r
+    2300016: PM3D_hairMerged_Extract10:Group42068
+    2300018: PM3D_hairMerged_Extract11:Group19934
+    2300020: PM3D_hairMerged_Extract12:Group57685
+    2300022: PM3D_hairMerged_Extract7:Group3718
+    2300024: PM3D_hairMerged_Extract8:Group25445
+    2300026: PM3D_hairMerged_Extract9:Group1628
+    2300028: PM3D_head_middle_child_1:Group27501
+    3300000: body
+    3300002: cil_l
+    3300004: cil_r
+    3300006: eye_l
+    3300008: eye_r
+    3300010: eyevbrow_r
+    3300012: hear_l
+    3300014: hear_r
+    3300016: PM3D_hairMerged_Extract10:Group42068
+    3300018: PM3D_hairMerged_Extract11:Group19934
+    3300020: PM3D_hairMerged_Extract12:Group57685
+    3300022: PM3D_hairMerged_Extract7:Group3718
+    3300024: PM3D_hairMerged_Extract8:Group25445
+    3300026: PM3D_hairMerged_Extract9:Group1628
+    3300028: PM3D_head_middle_child_1:Group27501
+    4300000: body
+    4300002: PM3D_head_middle_child_1:Group27501
+    4300004: eye_l
+    4300006: cil_l
+    4300008: hear_l
+    4300010: eye_r
+    4300012: eyevbrow_r
+    4300014: cil_r
+    4300016: hear_r
+    4300018: PM3D_hairMerged_Extract7:Group3718
+    4300020: PM3D_hairMerged_Extract8:Group25445
+    4300022: PM3D_hairMerged_Extract9:Group1628
+    4300024: PM3D_hairMerged_Extract10:Group42068
+    4300026: PM3D_hairMerged_Extract11:Group19934
+    4300028: PM3D_hairMerged_Extract12:Group57685
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

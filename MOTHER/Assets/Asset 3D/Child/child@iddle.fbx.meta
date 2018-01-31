@@ -1,0 +1,945 @@
+fileFormatVersion: 2
+guid: ec4cab303cee5bc4799c3231374a18c6
+timeCreated: 1496215791
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: be_head01
+    100002: be_hips01
+    100004: be_l_eyes01
+    100006: be_l_hand01
+    100008: be_l_index01
+    100010: be_l_mid01
+    100012: be_l_thumb01
+    100014: be_l_toe01
+    100016: be_lowerjaw01
+    100018: be_r_eyes01
+    100020: be_r_hand01
+    100022: be_r_index01
+    100024: be_r_mid01
+    100026: be_r_thumb01
+    100028: be_r_toe01
+    100030: be_upperjaw01
+    100032: bn_hair_A01
+    100034: bn_hair_B01
+    100036: bn_hair_C01
+    100038: bn_head01
+    100040: bn_hips01
+    100042: bn_l_ankle01
+    100044: bn_l_arm01
+    100046: bn_l_ball01
+    100048: bn_l_elb01
+    100050: bn_l_eyes01
+    100052: bn_l_index_b01
+    100054: bn_l_index_c01
+    100056: bn_l_index_c01 1
+    100058: bn_l_knee01
+    100060: bn_l_lock_A01
+    100062: bn_l_lock_B01
+    100064: bn_l_lock_C01
+    100066: bn_l_lowerlid01
+    100068: bn_l_mid_b01
+    100070: bn_l_should01
+    100072: bn_l_thumb_b01
+    100074: bn_l_thumb_c01
+    100076: bn_l_tight_01
+    100078: bn_l_upperlid01
+    100080: bn_l_wrist01
+    100082: bn_lock_A01
+    100084: bn_lock_B01
+    100086: bn_lock_C01
+    100088: bn_lowerjaw01
+    100090: bn_neck01
+    100092: bn_r_ankle01
+    100094: bn_r_arm01
+    100096: bn_r_ball01
+    100098: bn_r_elb01
+    100100: bn_r_eyes01
+    100102: bn_r_index_b01
+    100104: bn_r_index_c01
+    100106: bn_r_index_c01 1
+    100108: bn_r_knee01
+    100110: bn_r_lock_A01
+    100112: bn_r_lock_B01
+    100114: bn_r_lock_C01
+    100116: bn_r_mid_b01
+    100118: bn_r_rowerlid01
+    100120: bn_r_should01
+    100122: bn_r_thumb_b01
+    100124: bn_r_thumb_c01
+    100126: bn_r_tight_01
+    100128: bn_r_upperlid01
+    100130: bn_r_wrist01
+    100132: bn_root01
+    100134: bn_spineA01
+    100136: bn_spineB01
+    100138: bn_spineC01
+    100140: bn_spineD01
+    100142: bn_upperjaw01
+    100144: //RootNode
+    100146: controlObjects01
+    100148: ctr_l_index_A01
+    100150: ctr_r_index_A01
+    100152: ctrl_global_eyes01
+    100154: ctrl_hair01
+    100156: ctrl_hair01 1
+    100158: ctrl_hair01 2
+    100160: ctrl_head01
+    100162: ctrl_hips01
+    100164: ctrl_l_arm_FK01
+    100166: ctrl_l_elb_FK01
+    100168: ctrl_l_eyes01
+    100170: ctrl_l_index_B01
+    100172: ctrl_l_leg01
+    100174: ctrl_l_lock_A01
+    100176: ctrl_l_lock_B01
+    100178: ctrl_l_lock_B01 1
+    100180: ctrl_l_lock_B01 2
+    100182: ctrl_l_mid_A01
+    100184: ctrl_l_mid_B01
+    100186: ctrl_l_should01
+    100188: ctrl_l_thumb_A01
+    100190: ctrl_l_thumb_B01
+    100192: ctrl_l_wrist_FK01
+    100194: ctrl_l_wrist_IK01
+    100196: ctrl_lock_A01
+    100198: ctrl_lowerjaw01
+    100200: ctrl_neck01
+    100202: ctrl_r_arm_FK01
+    100204: ctrl_r_elb_FK01
+    100206: ctrl_r_eyes01
+    100208: ctrl_r_index_B01
+    100210: ctrl_r_leg01
+    100212: ctrl_r_lock_A01
+    100214: ctrl_r_mid_A01
+    100216: ctrl_r_mid_B01
+    100218: ctrl_r_should01
+    100220: ctrl_r_thumb_A01
+    100222: ctrl_r_thumb_B01
+    100224: ctrl_r_wrist_FK01
+    100226: ctrl_r_wrist_IK01
+    100228: ctrl_root01
+    100230: ctrl_spinea01
+    100232: ctrl_spineb01
+    100234: ctrl_spinec01
+    100236: ctrl_upperjaw01
+    100238: extraNodes01
+    100240: eyes_angry
+    100242: eyes_angry 1
+    100244: eyes_angry1
+    100246: eyes_sad
+    100248: eyes_sad 1
+    100250: eyes_sad5
+    100252: globalMove01
+    100254: grp_ctrl_global_eyes01
+    100256: grp_ctrl_hair01
+    100258: grp_ctrl_hair02
+    100260: grp_ctrl_hair03
+    100262: grp_ctrl_head01
+    100264: grp_ctrl_hips01
+    100266: grp_ctrl_l_arm_FK01
+    100268: grp_ctrl_l_elb_FK01
+    100270: grp_ctrl_l_eyes01
+    100272: grp_ctrl_l_index_A01
+    100274: grp_ctrl_l_index_B01
+    100276: grp_ctrl_l_leg01
+    100278: grp_ctrl_l_lock_A01
+    100280: grp_ctrl_l_lock_B01
+    100282: grp_ctrl_l_lock_B02
+    100284: grp_ctrl_l_lock_B03
+    100286: grp_ctrl_l_mid_A01
+    100288: grp_ctrl_l_mid_B01
+    100290: grp_ctrl_l_should01
+    100292: grp_ctrl_l_thumb_A01
+    100294: grp_ctrl_l_thumb_B01
+    100296: grp_ctrl_l_wrist_FK01
+    100298: grp_ctrl_l_wrist_IK01
+    100300: grp_ctrl_lock_A01
+    100302: grp_ctrl_lowerjaw01
+    100304: grp_ctrl_neck01
+    100306: grp_ctrl_r_arm_FK01
+    100308: grp_ctrl_r_elb_FK01
+    100310: grp_ctrl_r_eyes01
+    100312: grp_ctrl_r_index_A01
+    100314: grp_ctrl_r_index_B01
+    100316: grp_ctrl_r_leg01
+    100318: grp_ctrl_r_lock_A01
+    100320: grp_ctrl_r_mid_A01
+    100322: grp_ctrl_r_mid_B01
+    100324: grp_ctrl_r_should01
+    100326: grp_ctrl_r_thumb_A01
+    100328: grp_ctrl_r_thumb_B01
+    100330: grp_ctrl_r_wrist_FK01
+    100332: grp_ctrl_r_wrist_IK01
+    100334: grp_ctrl_root01
+    100336: grp_ctrl_spinea01
+    100338: grp_ctrl_spineb01
+    100340: grp_ctrl_spinec01
+    100342: grp_ctrl_upperjaw01
+    100344: GUI
+    100346: GUI2
+    100348: GUI3
+    100350: jdrv_l_lowerlid01
+    100352: jdrv_l_upperlid01
+    100354: jdrv_r_lowerlid01
+    100356: jdrv_r_upperlid01
+    100358: joint4
+    100360: joints01
+    100362: loc_l_arm01
+    100364: loc_l_elb01
+    100366: loc_l_wrist01
+    100368: loc_r_arm01
+    100370: loc_r_elb01
+    100372: loc_r_wrist01
+    100374: mouth_angry
+    100376: mouth_angry 1
+    100378: mouth_angry1
+    100380: mouth_happy
+    100382: mouth_happy 1
+    100384: mouth_happy1
+    100386: mouth_sad
+    100388: mouth_sad 1
+    100390: mouth_sad1
+    100392: rf_l_ball01
+    100394: rf_l_heel01
+    100396: rf_l_toe01
+    100398: rf_r_ball01
+    100400: rf_r_heel01
+    100402: rf_r_toe01
+    100404: text_eyes
+    100406: text_mouth
+    100408: transform1
+    100410: xtra_toHide01
+    400000: be_head01
+    400002: be_hips01
+    400004: be_l_eyes01
+    400006: be_l_hand01
+    400008: be_l_index01
+    400010: be_l_mid01
+    400012: be_l_thumb01
+    400014: be_l_toe01
+    400016: be_lowerjaw01
+    400018: be_r_eyes01
+    400020: be_r_hand01
+    400022: be_r_index01
+    400024: be_r_mid01
+    400026: be_r_thumb01
+    400028: be_r_toe01
+    400030: be_upperjaw01
+    400032: bn_hair_A01
+    400034: bn_hair_B01
+    400036: bn_hair_C01
+    400038: bn_head01
+    400040: bn_hips01
+    400042: bn_l_ankle01
+    400044: bn_l_arm01
+    400046: bn_l_ball01
+    400048: bn_l_elb01
+    400050: bn_l_eyes01
+    400052: bn_l_index_b01
+    400054: bn_l_index_c01
+    400056: bn_l_index_c01 1
+    400058: bn_l_knee01
+    400060: bn_l_lock_A01
+    400062: bn_l_lock_B01
+    400064: bn_l_lock_C01
+    400066: bn_l_lowerlid01
+    400068: bn_l_mid_b01
+    400070: bn_l_should01
+    400072: bn_l_thumb_b01
+    400074: bn_l_thumb_c01
+    400076: bn_l_tight_01
+    400078: bn_l_upperlid01
+    400080: bn_l_wrist01
+    400082: bn_lock_A01
+    400084: bn_lock_B01
+    400086: bn_lock_C01
+    400088: bn_lowerjaw01
+    400090: bn_neck01
+    400092: bn_r_ankle01
+    400094: bn_r_arm01
+    400096: bn_r_ball01
+    400098: bn_r_elb01
+    400100: bn_r_eyes01
+    400102: bn_r_index_b01
+    400104: bn_r_index_c01
+    400106: bn_r_index_c01 1
+    400108: bn_r_knee01
+    400110: bn_r_lock_A01
+    400112: bn_r_lock_B01
+    400114: bn_r_lock_C01
+    400116: bn_r_mid_b01
+    400118: bn_r_rowerlid01
+    400120: bn_r_should01
+    400122: bn_r_thumb_b01
+    400124: bn_r_thumb_c01
+    400126: bn_r_tight_01
+    400128: bn_r_upperlid01
+    400130: bn_r_wrist01
+    400132: bn_root01
+    400134: bn_spineA01
+    400136: bn_spineB01
+    400138: bn_spineC01
+    400140: bn_spineD01
+    400142: bn_upperjaw01
+    400144: //RootNode
+    400146: controlObjects01
+    400148: ctr_l_index_A01
+    400150: ctr_r_index_A01
+    400152: ctrl_global_eyes01
+    400154: ctrl_hair01
+    400156: ctrl_hair01 1
+    400158: ctrl_hair01 2
+    400160: ctrl_head01
+    400162: ctrl_hips01
+    400164: ctrl_l_arm_FK01
+    400166: ctrl_l_elb_FK01
+    400168: ctrl_l_eyes01
+    400170: ctrl_l_index_B01
+    400172: ctrl_l_leg01
+    400174: ctrl_l_lock_A01
+    400176: ctrl_l_lock_B01
+    400178: ctrl_l_lock_B01 1
+    400180: ctrl_l_lock_B01 2
+    400182: ctrl_l_mid_A01
+    400184: ctrl_l_mid_B01
+    400186: ctrl_l_should01
+    400188: ctrl_l_thumb_A01
+    400190: ctrl_l_thumb_B01
+    400192: ctrl_l_wrist_FK01
+    400194: ctrl_l_wrist_IK01
+    400196: ctrl_lock_A01
+    400198: ctrl_lowerjaw01
+    400200: ctrl_neck01
+    400202: ctrl_r_arm_FK01
+    400204: ctrl_r_elb_FK01
+    400206: ctrl_r_eyes01
+    400208: ctrl_r_index_B01
+    400210: ctrl_r_leg01
+    400212: ctrl_r_lock_A01
+    400214: ctrl_r_mid_A01
+    400216: ctrl_r_mid_B01
+    400218: ctrl_r_should01
+    400220: ctrl_r_thumb_A01
+    400222: ctrl_r_thumb_B01
+    400224: ctrl_r_wrist_FK01
+    400226: ctrl_r_wrist_IK01
+    400228: ctrl_root01
+    400230: ctrl_spinea01
+    400232: ctrl_spineb01
+    400234: ctrl_spinec01
+    400236: ctrl_upperjaw01
+    400238: extraNodes01
+    400240: eyes_angry
+    400242: eyes_angry 1
+    400244: eyes_angry1
+    400246: eyes_sad
+    400248: eyes_sad 1
+    400250: eyes_sad5
+    400252: globalMove01
+    400254: grp_ctrl_global_eyes01
+    400256: grp_ctrl_hair01
+    400258: grp_ctrl_hair02
+    400260: grp_ctrl_hair03
+    400262: grp_ctrl_head01
+    400264: grp_ctrl_hips01
+    400266: grp_ctrl_l_arm_FK01
+    400268: grp_ctrl_l_elb_FK01
+    400270: grp_ctrl_l_eyes01
+    400272: grp_ctrl_l_index_A01
+    400274: grp_ctrl_l_index_B01
+    400276: grp_ctrl_l_leg01
+    400278: grp_ctrl_l_lock_A01
+    400280: grp_ctrl_l_lock_B01
+    400282: grp_ctrl_l_lock_B02
+    400284: grp_ctrl_l_lock_B03
+    400286: grp_ctrl_l_mid_A01
+    400288: grp_ctrl_l_mid_B01
+    400290: grp_ctrl_l_should01
+    400292: grp_ctrl_l_thumb_A01
+    400294: grp_ctrl_l_thumb_B01
+    400296: grp_ctrl_l_wrist_FK01
+    400298: grp_ctrl_l_wrist_IK01
+    400300: grp_ctrl_lock_A01
+    400302: grp_ctrl_lowerjaw01
+    400304: grp_ctrl_neck01
+    400306: grp_ctrl_r_arm_FK01
+    400308: grp_ctrl_r_elb_FK01
+    400310: grp_ctrl_r_eyes01
+    400312: grp_ctrl_r_index_A01
+    400314: grp_ctrl_r_index_B01
+    400316: grp_ctrl_r_leg01
+    400318: grp_ctrl_r_lock_A01
+    400320: grp_ctrl_r_mid_A01
+    400322: grp_ctrl_r_mid_B01
+    400324: grp_ctrl_r_should01
+    400326: grp_ctrl_r_thumb_A01
+    400328: grp_ctrl_r_thumb_B01
+    400330: grp_ctrl_r_wrist_FK01
+    400332: grp_ctrl_r_wrist_IK01
+    400334: grp_ctrl_root01
+    400336: grp_ctrl_spinea01
+    400338: grp_ctrl_spineb01
+    400340: grp_ctrl_spinec01
+    400342: grp_ctrl_upperjaw01
+    400344: GUI
+    400346: GUI2
+    400348: GUI3
+    400350: jdrv_l_lowerlid01
+    400352: jdrv_l_upperlid01
+    400354: jdrv_r_lowerlid01
+    400356: jdrv_r_upperlid01
+    400358: joint4
+    400360: joints01
+    400362: loc_l_arm01
+    400364: loc_l_elb01
+    400366: loc_l_wrist01
+    400368: loc_r_arm01
+    400370: loc_r_elb01
+    400372: loc_r_wrist01
+    400374: mouth_angry
+    400376: mouth_angry 1
+    400378: mouth_angry1
+    400380: mouth_happy
+    400382: mouth_happy 1
+    400384: mouth_happy1
+    400386: mouth_sad
+    400388: mouth_sad 1
+    400390: mouth_sad1
+    400392: rf_l_ball01
+    400394: rf_l_heel01
+    400396: rf_l_toe01
+    400398: rf_r_ball01
+    400400: rf_r_heel01
+    400402: rf_r_toe01
+    400404: text_eyes
+    400406: text_mouth
+    400408: transform1
+    400410: xtra_toHide01
+    7400000: iddle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: iddle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: extraNodes01
+        weight: 1
+      - path: extraNodes01/xtra_toHide01
+        weight: 1
+      - path: extraNodes01/xtra_toHide01/loc_l_wrist01
+        weight: 1
+      - path: extraNodes01/xtra_toHide01/loc_r_wrist01
+        weight: 1
+      - path: globalMove01
+        weight: 1
+      - path: globalMove01/controlObjects01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_index_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_index_A01/ctr_l_index_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_index_A01/ctr_l_index_A01/grp_ctrl_l_index_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_index_A01/ctr_l_index_A01/grp_ctrl_l_index_B01/ctrl_l_index_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_leg01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_leg01/ctrl_l_leg01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_leg01/ctrl_l_leg01/rf_l_heel01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_leg01/ctrl_l_leg01/rf_l_heel01/rf_l_toe01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_leg01/ctrl_l_leg01/rf_l_heel01/rf_l_toe01/rf_l_ball01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_mid_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_mid_A01/ctrl_l_mid_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_mid_A01/ctrl_l_mid_A01/grp_ctrl_l_mid_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_mid_A01/ctrl_l_mid_A01/grp_ctrl_l_mid_B01/ctrl_l_mid_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_thumb_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_thumb_A01/ctrl_l_thumb_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_thumb_A01/ctrl_l_thumb_A01/grp_ctrl_l_thumb_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_thumb_A01/ctrl_l_thumb_A01/grp_ctrl_l_thumb_B01/ctrl_l_thumb_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_wrist_IK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_l_wrist_IK01/ctrl_l_wrist_IK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_index_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_index_A01/ctr_r_index_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_index_A01/ctr_r_index_A01/grp_ctrl_r_index_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_index_A01/ctr_r_index_A01/grp_ctrl_r_index_B01/ctrl_r_index_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_leg01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_leg01/ctrl_r_leg01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_leg01/ctrl_r_leg01/transform1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_leg01/ctrl_r_leg01/transform1/rf_r_heel01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_leg01/ctrl_r_leg01/transform1/rf_r_heel01/rf_r_toe01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_leg01/ctrl_r_leg01/transform1/rf_r_heel01/rf_r_toe01/rf_r_ball01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_mid_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_mid_A01/ctrl_r_mid_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_mid_A01/ctrl_r_mid_A01/grp_ctrl_r_mid_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_mid_A01/ctrl_r_mid_A01/grp_ctrl_r_mid_B01/ctrl_r_mid_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_thumb_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_thumb_A01/ctrl_r_thumb_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_thumb_A01/ctrl_r_thumb_A01/grp_ctrl_r_thumb_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_thumb_A01/ctrl_r_thumb_A01/grp_ctrl_r_thumb_B01/ctrl_r_thumb_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_wrist_IK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_r_wrist_IK01/ctrl_r_wrist_IK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_hips01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_hips01/ctrl_hips01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01/ctrl_l_arm_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01/ctrl_l_arm_FK01/grp_ctrl_l_elb_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01/ctrl_l_arm_FK01/grp_ctrl_l_elb_FK01/ctrl_l_elb_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01/ctrl_l_arm_FK01/grp_ctrl_l_elb_FK01/ctrl_l_elb_FK01/grp_ctrl_l_wrist_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01/ctrl_l_arm_FK01/grp_ctrl_l_elb_FK01/ctrl_l_elb_FK01/grp_ctrl_l_wrist_FK01/ctrl_l_wrist_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01/ctrl_l_arm_FK01/grp_ctrl_l_elb_FK01/ctrl_l_elb_FK01/loc_l_elb01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_l_should01/ctrl_l_should01/grp_ctrl_l_arm_FK01/ctrl_l_arm_FK01/loc_l_arm01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_global_eyes01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_global_eyes01/ctrl_global_eyes01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_global_eyes01/ctrl_global_eyes01/grp_ctrl_l_eyes01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_global_eyes01/ctrl_global_eyes01/grp_ctrl_l_eyes01/ctrl_l_eyes01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_global_eyes01/ctrl_global_eyes01/grp_ctrl_r_eyes01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_global_eyes01/ctrl_global_eyes01/grp_ctrl_r_eyes01/ctrl_r_eyes01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_hair01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_hair01/ctrl_hair01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_hair01/ctrl_hair01/grp_ctrl_hair02
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_hair01/ctrl_hair01/grp_ctrl_hair02/ctrl_hair01
+          1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_hair01/ctrl_hair01/grp_ctrl_hair02/ctrl_hair01
+          1/grp_ctrl_hair03
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_hair01/ctrl_hair01/grp_ctrl_hair02/ctrl_hair01
+          1/grp_ctrl_hair03/ctrl_hair01 2
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_l_lock_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_l_lock_A01/ctrl_l_lock_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_l_lock_A01/ctrl_l_lock_A01/grp_ctrl_l_lock_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_l_lock_A01/ctrl_l_lock_A01/grp_ctrl_l_lock_B01/ctrl_l_lock_B01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_lock_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_lock_A01/ctrl_lock_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_lock_A01/ctrl_lock_A01/grp_ctrl_l_lock_B02
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_lock_A01/ctrl_lock_A01/grp_ctrl_l_lock_B02/ctrl_l_lock_B01
+          1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_lowerjaw01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_lowerjaw01/ctrl_lowerjaw01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_r_lock_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_r_lock_A01/ctrl_r_lock_A01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_r_lock_A01/ctrl_r_lock_A01/grp_ctrl_l_lock_B03
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_r_lock_A01/ctrl_r_lock_A01/grp_ctrl_l_lock_B03/ctrl_l_lock_B01
+          2
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_upperjaw01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/grp_ctrl_upperjaw01/ctrl_upperjaw01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_angry
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_angry/mouth_angry
+          1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_angry/mouth_angry1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_happy
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_happy/mouth_happy
+          1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_happy/mouth_happy1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_sad
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_sad/mouth_sad
+          1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/mouth_sad/mouth_sad1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI2/text_mouth
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3/eyes_angry
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3/eyes_angry/eyes_angry
+          1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3/eyes_angry/eyes_angry1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3/eyes_sad
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3/eyes_sad/eyes_sad
+          1
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3/eyes_sad/eyes_sad5
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_neck01/ctrl_neck01/grp_ctrl_head01/ctrl_head01/GUI/GUI3/text_eyes
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01/ctrl_r_arm_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01/ctrl_r_arm_FK01/grp_ctrl_r_elb_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01/ctrl_r_arm_FK01/grp_ctrl_r_elb_FK01/ctrl_r_elb_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01/ctrl_r_arm_FK01/grp_ctrl_r_elb_FK01/ctrl_r_elb_FK01/grp_ctrl_r_wrist_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01/ctrl_r_arm_FK01/grp_ctrl_r_elb_FK01/ctrl_r_elb_FK01/grp_ctrl_r_wrist_FK01/ctrl_r_wrist_FK01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01/ctrl_r_arm_FK01/grp_ctrl_r_elb_FK01/ctrl_r_elb_FK01/loc_r_elb01
+        weight: 1
+      - path: globalMove01/controlObjects01/grp_ctrl_root01/ctrl_root01/grp_ctrl_spinea01/ctrl_spinea01/grp_ctrl_spineb01/ctrl_spineb01/grp_ctrl_spinec01/ctrl_spinec01/grp_ctrl_r_should01/ctrl_r_should01/grp_ctrl_r_arm_FK01/ctrl_r_arm_FK01/loc_r_arm01
+        weight: 1
+      - path: globalMove01/joints01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_hips01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_hips01/be_hips01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_l_tight_01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_l_tight_01/bn_l_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_l_tight_01/bn_l_knee01/bn_l_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_l_tight_01/bn_l_knee01/bn_l_ankle01/bn_l_ball01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_l_tight_01/bn_l_knee01/bn_l_ankle01/bn_l_ball01/be_l_toe01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_r_tight_01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_r_tight_01/bn_r_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_r_tight_01/bn_r_knee01/bn_r_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_r_tight_01/bn_r_knee01/bn_r_ankle01/bn_r_ball01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_r_tight_01/bn_r_knee01/bn_r_ankle01/bn_r_ball01/be_r_toe01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_index_b01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_index_b01/bn_l_index_c01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_index_b01/bn_l_index_c01/be_l_index01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_mid_b01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_mid_b01/bn_l_index_c01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_mid_b01/bn_l_index_c01
+          1/be_l_mid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_thumb_b01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_thumb_b01/bn_l_thumb_c01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_l_should01/bn_l_arm01/bn_l_elb01/bn_l_wrist01/be_l_hand01/bn_l_thumb_b01/bn_l_thumb_c01/be_l_thumb01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/be_head01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_hair_A01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_hair_A01/bn_hair_B01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_hair_A01/bn_hair_B01/bn_hair_C01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_hair_A01/bn_hair_B01/bn_hair_C01/joint4
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_l_eyes01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_l_eyes01/be_l_eyes01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_l_lock_A01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_l_lock_A01/bn_l_lock_B01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_l_lock_A01/bn_l_lock_B01/bn_l_lock_C01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_lock_A01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_lock_A01/bn_lock_B01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_lock_A01/bn_lock_B01/bn_lock_C01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_lowerjaw01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_lowerjaw01/be_lowerjaw01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_r_eyes01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_r_eyes01/be_r_eyes01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_r_lock_A01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_r_lock_A01/bn_r_lock_B01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_r_lock_A01/bn_r_lock_B01/bn_r_lock_C01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_upperjaw01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/bn_upperjaw01/be_upperjaw01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_l_lowerlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_l_lowerlid01/bn_l_lowerlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_l_upperlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_l_upperlid01/bn_l_upperlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_r_lowerlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_r_lowerlid01/bn_r_rowerlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_r_upperlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_neck01/bn_head01/jdrv_r_upperlid01/bn_r_upperlid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_index_b01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_index_b01/bn_r_index_c01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_index_b01/bn_r_index_c01/be_r_index01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_mid_b01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_mid_b01/bn_r_index_c01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_mid_b01/bn_r_index_c01
+          1/be_r_mid01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_thumb_b01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_thumb_b01/bn_r_thumb_c01
+        weight: 1
+      - path: globalMove01/joints01/bn_root01/bn_spineA01/bn_spineB01/bn_spineC01/bn_spineD01/bn_r_should01/bn_r_arm01/bn_r_elb01/bn_r_wrist01/be_r_hand01/bn_r_thumb_b01/bn_r_thumb_c01/be_r_thumb01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

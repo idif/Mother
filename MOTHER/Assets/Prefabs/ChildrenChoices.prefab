@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1440420677642264}
+  m_IsPrefabParent: 1
+--- !u!1 &1440420677642264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4389948355340948}
+  - component: {fileID: 114142999202211344}
+  m_Layer: 0
+  m_Name: ChildrenChoices
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4389948355340948
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440420677642264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114142999202211344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440420677642264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8657d334eec9354f8d221887b808e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childTrait:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  childChoiceName:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  children:
+  - childName: 
+    trait: 0
+  - childName: 
+    trait: 0
+  - childName: 
+    trait: 0
+  - childName: 
+    trait: 0
+  - childName: 
+    trait: 0
+  - childName: 
+    trait: 0
+  randomMaleNames:
+  - "T\xE9ophile"
+  - Kaiba
+  - Shakur
+  - Jean-Luc
+  - Emmanuel
+  - Quentin
+  - Ken
+  - Ricardo
+  - Brice
+  - Hubert
+  - Serj
+  - Enrico
+  - Pablo
+  - Bonnaventure
+  - Jim
+  - Alain
+  - "Dieudonn\xE9"
+  - Marcel
+  - Achille
+  - "Lo\xEFc"
+  - Michel
+  - Thomas
+  - Nicolas
+  - Romain
+  - Zackarie
+  - Dorian
+  - Didier
+  - Noel
+  - "T\xE9o"
+  - Ascention
+  - Enzo
+  - Luc
+  - Vincent
+  - Moktar
+  - "Cl\xE9ment"
+  - Philippe
+  - Moha
+  - Titouan
+  - Raphael
+  - Ibrahim
+  - Jordy
+  - Morgan
+  - Goodenough
+  - Victor
+  - Donald
+  - Mike
+  - Steven
+  - Jiji
+  - Ayoub
+  - Florian
+  - Jacky
+  - "J\xE9r\xF4me"
+  - Aziz
+  - Ethan
+  - Jacob
+  - James
+  - Grey
+  - Sacha
+  - Edward
+  - Bayek
+  - Ragnar
+  - Yoann
+  - Zinedine
+  - Matthieu
+  - Jacob-Kevin
+  - "Adl\xE8ne"
+  - "Emerik\xE9"
+  - Kevin-Lopez
+  - "Ren\xE9"
+  - "S\xE9bastien"
+  - Bruno
+  - Marc
+  - Jean-Baptiste
+  - Jean-Jacques
+  - Joseph
+  - Lucas
+  - Guillaume
+  - Martin
+  - Emeric
+  - Alexandre
+  randomFemaleNames:
+  - Asa
+  - Marine
+  - Lucie
+  - Claire
+  - Romane
+  - Lisa
+  - "P\xE9n\xE9loppe"
+  - Emeline
+  - Maureen
+  - Roxanne
+  - Ondine
+  - Erika
+  - Appoline
+  - "Marie-Th\xE9r\xE8se"
+  - Marceline
+  - Anna
+  - Kadija
+  - Kenza
+  - Enza
+  - "Cl\xE9mence"
+  - Yang Shloa
+  - "Clo\xE9"
+  - Kelly
+  - Raphaelle
+  - Morgane
+  - "S\xE9gol\xE8ne"
+  - Abigail
+  - Georgette
+  - Sara
+  - Mireille
+  - Gertrude
+  - Simone
+  - Chantal
+  - Marie
+  - Alice
+  - Virginie
+  - Ntseng
+  - Aude
+  - Manon
+  - "No\xE9mie"
+  - "Cl\xE9mentine"
+  - "V\xE9ronique"
+  - "Ana\xEBlle"
+  - Pascale
+  - Coraline
+  - Audrey
+  - Coleen
+  - Leeloo
+  - Demetra
+  - "L\xE9ane"
+  - "Gueni\xE8vre"
+  - "Genevi\xE8ve"
+  - Elianore
+  - Cindy
+  - Shirley
+  - "Zo\xE9"
+  - Clara
+  - Aya
+  - Laura
+  - Gabrielle
+  - Elodie
+  - Ravena
+  - Sonia
+  - Bernadette
+  - "Aur\xE9lie"
+  - Nicole
+  - Monique
+  - Jocelyne
+  - Josiane
+  - Germaine
+  - Madeleine
+  - Claudine
+  - Eliah
+  - "S\xE9verine"
+  - Jamila
+  - Yuna
+  - Ninon
+  - Mona
+  - Shinobu
+  - Anastasia

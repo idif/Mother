@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: dbf87fcd94968e244a1039674028621c
+timeCreated: 1496045594
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: center_part
+    100004: collar
+    100006: //RootNode
+    100008: glass
+    100010: head
+    100012: head 1
+    100014: left_gaz_bottle
+    100016: left_leg
+    100018: left_link
+    100020: left_part
+    100022: left_wing
+    100024: right_gaz_bottle
+    100026: right_leg
+    100028: right_link
+    100030: right_part
+    100032: right_wing
+    100034: torso_gem
+    400000: body
+    400002: center_part
+    400004: collar
+    400006: //RootNode
+    400008: glass
+    400010: head
+    400012: head 1
+    400014: left_gaz_bottle
+    400016: left_leg
+    400018: left_link
+    400020: left_part
+    400022: left_wing
+    400024: right_gaz_bottle
+    400026: right_leg
+    400028: right_link
+    400030: right_part
+    400032: right_wing
+    400034: torso_gem
+    2300000: body
+    2300002: collar
+    2300004: glass
+    2300006: head 1
+    2300008: left_gaz_bottle
+    2300010: left_leg
+    2300012: left_link
+    2300014: left_wing
+    2300016: right_gaz_bottle
+    2300018: right_leg
+    2300020: right_link
+    2300022: right_wing
+    2300024: torso_gem
+    3300000: body
+    3300002: collar
+    3300004: glass
+    3300006: head 1
+    3300008: left_gaz_bottle
+    3300010: left_leg
+    3300012: left_link
+    3300014: left_wing
+    3300016: right_gaz_bottle
+    3300018: right_leg
+    3300020: right_link
+    3300022: right_wing
+    3300024: torso_gem
+    4300000: right_link
+    4300002: right_gaz_bottle
+    4300004: right_wing
+    4300006: right_leg
+    4300008: torso_gem
+    4300010: body
+    4300012: glass
+    4300014: head
+    4300016: collar
+    4300018: left_link
+    4300020: left_gaz_bottle
+    4300022: left_wing
+    4300024: left_leg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
