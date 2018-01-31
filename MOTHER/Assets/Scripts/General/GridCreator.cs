@@ -99,7 +99,11 @@ public class GridCreator : SingletonBehaviour<GridCreator> {
                 switch(grid[i, j].tileStartStatus)
                 {
 
+<<<<<<< HEAD
                     /*case StartObject.ForOfWar:
+=======
+                    case StartObject.ForOfWar:
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
                          Renderer[] rendersTemp = grid[i, j].GetComponentsInChildren<Renderer>();
 
                         foreach(Renderer renderTemp in rendersTemp)
@@ -107,6 +111,7 @@ public class GridCreator : SingletonBehaviour<GridCreator> {
                             renderTemp.material = newFogOfWarMat;
                         }
 
+<<<<<<< HEAD
                         break;*/
 
 				case StartObject.ZoneWall:
@@ -119,6 +124,9 @@ public class GridCreator : SingletonBehaviour<GridCreator> {
 					grid[i,j].objectOnTile.SendMessage("UpdateWallMesh");
 
 					break;
+=======
+                        break;
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
                     default:
                         break;
@@ -214,7 +222,11 @@ public class GridCreator : SingletonBehaviour<GridCreator> {
 
 				List<TileManager> newRoom = new List<TileManager> ();
 				tile.GetRoomTiles (ref newRoom);
+<<<<<<< HEAD
 				new Room (newRoom, true, 0);
+=======
+				new Room (newRoom, true, Color.white);
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 			}
 

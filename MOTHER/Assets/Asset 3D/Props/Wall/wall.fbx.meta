@@ -3,24 +3,34 @@ guid: 602f9f06db1385347a2ca5531b6da574
 timeCreated: 1495195789
 licenseType: Free
 ModelImporter:
+<<<<<<< HEAD
   serializedVersion: 22
+=======
+  serializedVersion: 19
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
     4300000: wall
+<<<<<<< HEAD
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
     second: {fileID: 2100000, guid: d9c7fc9a9116c494493e6acab223cbd2, type: 2}
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+<<<<<<< HEAD
     materialLocation: 0
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -33,14 +43,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+<<<<<<< HEAD
     importAnimatedCustomProperties: 0
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+<<<<<<< HEAD
     extraUserProperties: []
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -48,10 +64,14 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+<<<<<<< HEAD
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+=======
+    importBlendShapes: 1
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -67,7 +87,10 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+<<<<<<< HEAD
     normalCalculationMode: 0
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

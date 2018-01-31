@@ -15,6 +15,7 @@ public class Room {
 	public ChildMood currentMood = ChildMood.Normal;
 	public int moodLevel = 0;
 
+<<<<<<< HEAD
 	public int roomDeco = 0;
 	Color color;
 
@@ -26,6 +27,17 @@ public class Room {
 
 		roomDeco = roomAmbiance;
 		color = ConstructionScript.Self ().groundColors [roomDeco];
+=======
+	public Color color;
+
+	public List<TileManager> tiles = new List<TileManager> ();
+
+	public Room(List<TileManager> roomTiles, bool setTileColor = false, Color? roomColor = null, string roomName = "New Room"){
+
+		tiles.AddRange(roomTiles);
+
+		color = roomColor == null ? Color.white : (Color)roomColor;
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		name = roomName;
 
 		foreach (TileManager tile in tiles) {
@@ -58,6 +70,7 @@ public class Room {
 	}
 
 
+<<<<<<< HEAD
 	public void UpdateDeco(int newId){
 
 		roomDeco = newId;
@@ -77,6 +90,8 @@ public class Room {
 	}
 
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 	public void CalculateMoodLevel(){
 
 		List <ChildMood> moodInfluences = new List<ChildMood> ();
@@ -132,7 +147,11 @@ public class Room {
 [System.Serializable]
 public class TileManager : MonoBehaviour {
 
+<<<<<<< HEAD
 	[HideInInspector]public MeshRenderer tileRenderer;
+=======
+    private MeshRenderer tileRenderer;
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
     private GameObject feedbackTextCanvas;
 
@@ -416,15 +435,26 @@ public class TileManager : MonoBehaviour {
 
                         if (oldRoom.tiles.Count != actualRoom.Count)
                         {
+<<<<<<< HEAD
 							new Room (actualRoom,true,oldRoom.roomDeco);
 							new Room (oldRoom.tiles.Except(actualRoom).ToList<TileManager>(),true, oldRoom.roomDeco);
+=======
+							new Room (actualRoom,true,oldRoom.color);
+							new Room (oldRoom.tiles.Except(actualRoom).ToList<TileManager>(),true, oldRoom.color);
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
                         }
                     }
 
 				}
 			}
 
+<<<<<<< HEAD
 			UpdateNeighboursWalls ();
+=======
+			foreach (TileManager tile in NeighbourTiles()) {
+				objectOnTile.SendMessage ("UpdateWallMesh",SendMessageOptions.DontRequireReceiver);
+			}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 		}
 
@@ -456,6 +486,7 @@ public class TileManager : MonoBehaviour {
 	}
 
 
+<<<<<<< HEAD
 	void UpdateNeighboursWalls(){
 
 		foreach (TileManager tile in NeighbourTiles()) {
@@ -467,6 +498,8 @@ public class TileManager : MonoBehaviour {
 	}
 
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 	public int Destruct(bool handleFeedback = true) {
 
@@ -486,8 +519,11 @@ public class TileManager : MonoBehaviour {
 
 					new Room (actualRoom,true);
 					
+<<<<<<< HEAD
 				UpdateNeighboursWalls ();
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 			}
 
 			if (room != null) {

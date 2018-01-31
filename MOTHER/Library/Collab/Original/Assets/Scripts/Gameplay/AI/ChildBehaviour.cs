@@ -2,11 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+<<<<<<< HEAD
 using System.Linq;
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 [RequireComponent(typeof(BubbleDisplay))]
 public class ChildBehaviour : CharacterBehaviour {
 
+<<<<<<< HEAD
+=======
+	public List<ChildTrait> traits = new List<ChildTrait> ();
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 	private BubbleDisplay thoughtDisplayer;
 
 	[System.NonSerialized]public ChildState activityStatus = ChildState.Idle;
@@ -15,13 +23,17 @@ public class ChildBehaviour : CharacterBehaviour {
 
 	public string childName = "Jacob-Kévin";
 
+<<<<<<< HEAD
 	[Header("Characteristics")]
 
 	public List<ChildTrait> traits = new List<ChildTrait> ();
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 	public NeedsList needs;
 	public SkillsList skills;
 	public MoveData moveSettings;
 
+<<<<<<< HEAD
 	public Dictionary<ChildSkill,Skill> skillRefs = new Dictionary<ChildSkill, Skill>();
 
 	public ObjectFunction[] desires;
@@ -37,6 +49,10 @@ public class ChildBehaviour : CharacterBehaviour {
 		skillRefs.Add (ChildSkill.Strength, skills.strength);
 
 		// Caractère random
+=======
+	void Awake()
+	{
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		if(traits.Contains(ChildTrait.Random))
 		{
 			ChildTrait firstTrait;
@@ -45,6 +61,7 @@ public class ChildBehaviour : CharacterBehaviour {
 			traits.Remove (ChildTrait.Random);
 			traits.Add (firstTrait);
 		}
+<<<<<<< HEAD
 		// Noms randoms
 		if (childName == "") 
 		{
@@ -86,6 +103,11 @@ public class ChildBehaviour : CharacterBehaviour {
 
 	}
 
+=======
+	}
+
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 
 	protected override void OnMouseClickOn(){
@@ -96,7 +118,10 @@ public class ChildBehaviour : CharacterBehaviour {
 		}
 	}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 	void RandomizeStats(){
 		needs.hunger.currentLevel = Random.Range (0.35f,1);
 		needs.sleep.currentLevel = Random.Range (0.35f,1);
@@ -106,5 +131,23 @@ public class ChildBehaviour : CharacterBehaviour {
 		skills.intelligence.currentLevelProgress =  Random.Range (0,1);
 		skills.strength.currentLevelProgress =  Random.Range (0,1);
 	}
+<<<<<<< HEAD
+=======
+
+
+	public Skill GetSkill(ChildSkill desiredSkill){
+		Skill selectedSkill = null;
+		if (skills.charisma.skillEnum == desiredSkill) {
+			selectedSkill = skills.charisma;
+		}else if (skills.intelligence.skillEnum == desiredSkill) {
+			selectedSkill = skills.intelligence;
+		}else if (skills.strength.skillEnum == desiredSkill) {
+			selectedSkill = skills.strength;
+		}
+
+		return selectedSkill;
+
+	}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		
 }

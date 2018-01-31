@@ -587,6 +587,7 @@ MonoBehaviour:
   buildableColor: {r: 0.45982918, g: 0.9051695, b: 0.99264705, a: 1}
   nonBuildableColor: {r: 0.9264706, g: 0.45642298, b: 0.45642298, a: 1}
   destructColor: {r: 1, g: 0, b: 0, a: 1}
+<<<<<<< HEAD
   column:
     mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
     materials:
@@ -627,6 +628,14 @@ MonoBehaviour:
   - {r: 0.9558824, g: 0.9450245, b: 0.85748273, a: 1}
   - {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 1}
   - {r: 0.95456386, g: 0.7941176, b: 1, a: 1}
+=======
+  column: {fileID: 4300000, guid: 602f9f06db1385347a2ca5531b6da574, type: 3}
+  end: {fileID: 4300000, guid: 43a847d419ae25a4ca5887b8bd35cbea, type: 3}
+  normalWall: {fileID: 4300000, guid: 08aa749bfe017c44e80a1f32f752e34c, type: 3}
+  corner: {fileID: 4300000, guid: a742bd223ac24f44487b99e23681b0da, type: 3}
+  tCorner: {fileID: 4300000, guid: 4b3be4b7cc255ef44b3ec990d1a9d461, type: 3}
+  allCorner: {fileID: 4300000, guid: 44257e817c9fae04782ef4cba5cb854a, type: 3}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 --- !u!114 &114639862268098776
 MonoBehaviour:
   m_ObjectHideFlags: 1

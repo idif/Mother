@@ -65,6 +65,7 @@ public class UITaskBar : SingletonBehaviour<UITaskBar> {
 
 	public void SelectProp(int propID){
 		if (ConstructionScript.Self().furnitureList [propID].zakariumCost <= GameManager.Self().zakarium) {
+<<<<<<< HEAD
 
 			if (ConstructionScript.Self ().furnitureList [propID].propPrefab.canBePlacedInLine) {
 				ConstructionScript.propRotation = Quaternion.identity;
@@ -73,6 +74,11 @@ public class UITaskBar : SingletonBehaviour<UITaskBar> {
 
 			UpdateConstructionProp (propID);
 		}else{
+=======
+			UpdateConstructionProp (propID);
+		}else{
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 			UpdateConstructionProp (-1);
 		
 		}
@@ -108,7 +114,10 @@ public class UITaskBar : SingletonBehaviour<UITaskBar> {
 
 
 	public void UpdateConstructionProp(int newPropID = -1){
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		ConstructionScript.propID = newPropID;
 		ConstructionScript.Self().DestroyDemoProp();
 		

@@ -79,7 +79,11 @@ public class DoorScript : MonoBehaviour
 		Room oldRoom = furnitureScript.tiles [0].room;
 
 		if (oldRoom != null) {
+<<<<<<< HEAD
 			new Room (actualRoom,true,oldRoom.roomDeco,oldRoom.name);
+=======
+			new Room (actualRoom,true,oldRoom.color,oldRoom.name);
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		}else{
 			new Room (actualRoom,true);
 		}

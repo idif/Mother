@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 
 public enum TileFeedback{SelectedTile,BuildableTile, NonBuildableTile, DestructTile}
+<<<<<<< HEAD
 
 [System.Serializable]public enum StartObject {None, ZoneWall, ZoneDoor, ForOfWar}
 
@@ -28,6 +29,25 @@ public class Room {
 		foreach (TileManager tile in tiles) {
 			tile.room = this;
 			tile.normalColor = color;
+=======
+public enum ProximityStatus{NoRoom,OneRoom,SameType,DifferentTypes}
+
+[System.Serializable]public enum StartObject {None, ZoneWall, ZoneDoor, ForOfWar}
+
+public class Room {
+
+	public RoomType type;
+	public List<TileManager> tiles = new List<TileManager> ();
+
+	public Room(RoomType roomType, List<TileManager> roomTiles, bool setTileColor = false){
+
+		type = roomType;
+		tiles.AddRange(roomTiles);
+
+		foreach (TileManager tile in tiles) {
+			tile.room = this;
+			tile.normalColor = ConstructionScript.roomTypes [type].tilesColor;
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 			if (setTileColor) {
 				tile.RenderTile ();
@@ -49,6 +69,7 @@ public class Room {
 
 		tiles.Add (tile);
 		tile.room = this;
+<<<<<<< HEAD
 		tile.normalColor = color;
 	}
 
@@ -102,6 +123,26 @@ public class Room {
 	}
 
 
+=======
+		tile.normalColor = ConstructionScript.roomTypes [type].tilesColor;
+	}
+
+}
+
+
+public struct ProximityResult{
+	
+	public ProximityStatus status;
+	public List <Room> closeRooms;
+
+	public ProximityResult(ProximityStatus resultStatus, List<Room> rooms){
+
+		status = resultStatus;
+		closeRooms = rooms;
+
+	}
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 }
 
 
@@ -120,6 +161,11 @@ public class TileManager : MonoBehaviour {
 
 	private bool canBuild = false;
 
+<<<<<<< HEAD
+=======
+	private List<TileManager> potentialRoom = new List<TileManager> ();
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 	[HideInInspector]public List<TileManager> potentialProp = new List<TileManager>();
 	[HideInInspector]public List<TileManager> tilesInBuildZone = new List<TileManager> ();
 
@@ -155,6 +201,13 @@ public class TileManager : MonoBehaviour {
 			ConstructionScript.CalculatePropLine ();
 			OnDestructionOver ();
 
+<<<<<<< HEAD
+=======
+		} else if (ConstructionScript.currentlyPlacedRoom != RoomType.None) {
+			OnRoomPlacementOver ();
+		} else if (ConstructionScript.isDestructingRoom) {
+			OnRoomDestructionOver ();
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		}
     }
 
@@ -183,6 +236,40 @@ public class TileManager : MonoBehaviour {
 	}
 
 
+<<<<<<< HEAD
+=======
+	void OnRoomPlacementOver(){
+		if((objectOnTile == null || !objectOnTile.blockRooms) && room == null){
+			
+			GetRoomTiles (ref potentialRoom);
+
+			foreach (TileManager tile in potentialRoom) {
+				tile.tileRenderer.material.color = ConstructionScript.roomTypes [ConstructionScript.currentlyPlacedRoom].tilesColor;
+			}
+
+		}
+	}
+
+
+	void OnRoomDestructionOver(){
+		
+		if (room != null) {
+			
+			foreach (TileManager tile in room.tiles) {
+				tile.RenderTile (true, TileFeedback.DestructTile);
+
+				if (tile.objectOnTile != null) {
+					tile.objectOnTile.RenderWithColor (Color.red);
+				}
+
+			}
+
+		}
+
+	}
+
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
     void OnMouseQuit() {
 			
         if (GameManager.selectedTile == this) {
@@ -197,6 +284,17 @@ public class TileManager : MonoBehaviour {
 			
 			OnDestructionQuit ();
 
+<<<<<<< HEAD
+=======
+		} else if (ConstructionScript.currentlyPlacedRoom != RoomType.None) {
+			
+			OnRoomPlacementQuit ();
+
+		} else if (ConstructionScript.isDestructingRoom) {
+			
+			OnRoomDestructionQuit ();
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		}
     }
 
@@ -230,6 +328,35 @@ public class TileManager : MonoBehaviour {
 	}
 
 
+<<<<<<< HEAD
+=======
+	void OnRoomPlacementQuit(){
+		if (room == null) {
+			foreach (TileManager tile in potentialRoom) {
+				tile.tileRenderer.material.color = normalColor;
+			}
+		}
+
+		potentialRoom.Clear ();
+
+	}
+
+
+	void OnRoomDestructionQuit(){
+		if (room != null) {
+			foreach (TileManager tile in room.tiles) {
+				tile.RenderTile ();
+
+				if (tile.objectOnTile != null) {
+					tile.objectOnTile.RenderBackToNormal ();
+				}
+
+			}
+		}
+	}
+
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
     void OnMouseClickOn() {
 
 		if (ConstructionScript.propID != -1) {
@@ -246,9 +373,19 @@ public class TileManager : MonoBehaviour {
 			ConstructionScript.clickedTile = this;
 			ConstructionScript.CalculatePropLine ();
 
+<<<<<<< HEAD
 		} else if (room != null && (objectOnTile == null || !typeof(InteractibleFurniture).IsAssignableFrom(objectOnTile.GetType()))) {
 
 			RoomConstructionBar.Self ().DisplayRoomPanel (this);
+=======
+		}else if (ConstructionScript.currentlyPlacedRoom != RoomType.None) {
+
+			SetRoom ();
+
+		} else if (ConstructionScript.isDestructingRoom) {
+
+			DestructRoom ();
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 		}
     }
@@ -302,6 +439,22 @@ public class TileManager : MonoBehaviour {
         GameManager.AddZakarium(-costTemp);
         BuildProp(ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab);
 
+<<<<<<< HEAD
+=======
+        switch (ConstructionScript.propID) {
+            case 3:
+                ObjectivesManager.Self().MissionCompletion(3, 1);
+                break;
+            case 12:
+                ObjectivesManager.Self().MissionCompletion(4, 1);
+                break;
+            case 13:
+                ObjectivesManager.Self().MissionCompletion(4, 1);
+                break;
+            default:
+                break;
+        }
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 		foreach (TileManager tile in tilesInBuildZone) {
 			tile.objectOnTile = objectOnTile;
@@ -324,8 +477,13 @@ public class TileManager : MonoBehaviour {
 
                         if (oldRoom.tiles.Count != actualRoom.Count)
                         {
+<<<<<<< HEAD
 							new Room (actualRoom,true);
 							new Room (oldRoom.tiles.Except(actualRoom).ToList<TileManager>(),true);
+=======
+							new Room (oldRoom.type,actualRoom,true);
+							new Room (oldRoom.type,oldRoom.tiles.Except(actualRoom).ToList<TileManager>(),true);
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
                         }
                     }
 
@@ -355,6 +513,7 @@ public class TileManager : MonoBehaviour {
 				DestroyObject();
 			}else{
 				
+<<<<<<< HEAD
 					DestroyObject();
 
 					List<TileManager> actualRoom = new List<TileManager> ();
@@ -368,6 +527,24 @@ public class TileManager : MonoBehaviour {
 				room.CalculateMoodLevel ();
 			}
 
+=======
+				ProximityResult objectProximity = ObjectProximityStatus();
+				if (objectProximity.status != ProximityStatus.DifferentTypes) {
+					
+					DestroyObject();
+
+					if (objectProximity.status == ProximityStatus.SameType || objectProximity.status == ProximityStatus.OneRoom) {
+
+						List<TileManager> actualRoom = new List<TileManager> ();
+						objectProximity.closeRooms [0].tiles [0].GetRoomTiles (ref actualRoom);
+
+						new Room (objectProximity.closeRooms [0].type, actualRoom,true);
+
+					}
+
+				}
+			}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
         }
     }
 
@@ -391,6 +568,16 @@ public class TileManager : MonoBehaviour {
 	}
 
 
+<<<<<<< HEAD
+=======
+	void SetRoom(){
+		if(IsRoomBuildable(potentialRoom) && (objectOnTile == null || objectOnTile.canBeDestroyed)){
+			new Room (ConstructionScript.currentlyPlacedRoom, potentialRoom);
+		}
+	}
+
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 	void DestructRoom(){
 		if (room != null) {
 			Room roomTemp = room;
@@ -426,7 +613,11 @@ public class TileManager : MonoBehaviour {
 		ClearBuildZoneList ();
 
 		FurnitureBehaviour prop = ConstructionScript.Self ().furnitureList [ConstructionScript.propID].propPrefab;
+<<<<<<< HEAD
 		canBuild = IsObjectBuildable() && (!prop.requiresShipSide || IsTileCloseToTheEdge());
+=======
+		canBuild = IsObjectBuildable() && (prop.blockRooms || (room != null && ConstructionScript.roomTypes[room.type].allowedPropsId.Contains(prop.propID))) && (!prop.requiresShipSide || IsTileCloseToTheEdge());
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
         if (canBuild)
         {
@@ -481,7 +672,11 @@ public class TileManager : MonoBehaviour {
 
 
 	public void RenderTile(bool specialFeedback = false, TileFeedback feedback = TileFeedback.SelectedTile){
+<<<<<<< HEAD
 		
+=======
+		Debug.Log (specialFeedback);
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		if (specialFeedback) {
 			switch (feedback) {
 			case TileFeedback.SelectedTile:
@@ -512,6 +707,108 @@ public class TileManager : MonoBehaviour {
 
     }
 
+<<<<<<< HEAD
+=======
+	public ProximityResult ObjectProximityStatus()//wether there's zero room, one room, 2 rooms of the same type or 2 rooms of different types around this object
+    {
+
+        if(objectOnTile == null)
+        {
+			return TileProximityStatus();
+        }
+
+		List<Room> closeRooms = new List<Room> ();
+		List<RoomType> closeRoomsTypes = new List<RoomType> ();
+
+        foreach(TileManager tile in objectOnTile.tiles)
+        {
+			foreach (Room closeRoom in tile.TileProximityStatus().closeRooms) {
+				if(!closeRooms.Contains(closeRoom)){
+					closeRooms.Add (closeRoom);
+					if(!closeRoomsTypes.Contains(closeRoom.type)){
+						closeRoomsTypes.Add (closeRoom.type);
+					}
+				}
+			}
+        }
+
+		switch (closeRooms.Count) {
+		case 0:
+			return new ProximityResult (ProximityStatus.NoRoom, closeRooms);
+
+		case 1:
+			return new ProximityResult (ProximityStatus.OneRoom, closeRooms);
+
+		default:
+			if (closeRoomsTypes.Count > 1) {
+				return new ProximityResult (ProximityStatus.DifferentTypes, closeRooms);
+			} else {
+				return new ProximityResult (ProximityStatus.SameType, closeRooms);
+			}
+		}
+
+    }
+
+	public ProximityResult TileProximityStatus()
+    {
+
+		List<Room> closeRooms = new List<Room> ();
+		List<RoomType> closeRoomsTypes = new List<RoomType> ();
+
+        if(coordinates.x < GridCreator.grid.GetLength(0) - 1)
+        {
+			GridCreator.grid [coordinates.x + 1, coordinates.y].PerformRoomCheck (ref closeRooms, ref closeRoomsTypes);
+        }
+
+		if (coordinates.x > 0)
+        {
+			GridCreator.grid [coordinates.x - 1, coordinates.y].PerformRoomCheck (ref closeRooms, ref closeRoomsTypes);
+        }
+
+		if (coordinates.y < GridCreator.grid.GetLength(1) - 1)
+        {
+			GridCreator.grid [coordinates.x, coordinates.y + 1].PerformRoomCheck (ref closeRooms, ref closeRoomsTypes);
+        }
+
+		if (coordinates.y > 0)
+        {
+			GridCreator.grid [coordinates.x, coordinates.y - 1].PerformRoomCheck (ref closeRooms, ref closeRoomsTypes);
+        }
+
+		switch(closeRooms.Count){
+
+			case 0:
+				return new ProximityResult(ProximityStatus.NoRoom,closeRooms);
+
+			case 1:
+				return new ProximityResult(ProximityStatus.OneRoom,closeRooms);
+
+		default:
+			
+			if (closeRoomsTypes.Count > 1) {
+				return new ProximityResult (ProximityStatus.DifferentTypes, closeRooms);
+			} else {
+				return new ProximityResult (ProximityStatus.SameType, closeRooms);
+			}
+
+				}
+    }
+
+	void PerformRoomCheck(ref List<Room> closeRooms, ref List<RoomType> closeRoomsTypes){
+		
+		if(room == null || closeRooms.Contains(room)){
+			return;
+		}
+
+		closeRooms.Add (room);
+
+		if(!closeRoomsTypes.Contains(room.type)){
+			closeRoomsTypes.Add (room.type);
+		}
+						
+	}
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 	public void ClearBuildZoneList(){
 
@@ -533,10 +830,17 @@ public class TileManager : MonoBehaviour {
                 return IsZoneBuildable(coordinates.x, coordinates.x + ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.y, 1, coordinates.y, coordinates.y - ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.x, -1);
                 
             case Direction.Backward:
+<<<<<<< HEAD
 				return IsZoneBuildable(coordinates.x, coordinates.x - ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.x, -1, coordinates.y, coordinates.y - ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.y, -1);
 
             case Direction.Left:
 				return IsZoneBuildable(coordinates.x, coordinates.x - ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.y, -1, coordinates.y, coordinates.y + ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.x, 1);
+=======
+			return IsZoneBuildable(coordinates.x, coordinates.x - ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.x, -1, coordinates.y, coordinates.y - ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.y, -1);
+
+            case Direction.Left:
+			return IsZoneBuildable(coordinates.x, coordinates.x - ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.y, -1, coordinates.y, coordinates.y + ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.x, 1);
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
             case Direction.Forward:
                 return IsZoneBuildable(coordinates.x, coordinates.x + ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.x, 1, coordinates.y, coordinates.y + ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.size.y, 1);
@@ -620,6 +924,7 @@ public class TileManager : MonoBehaviour {
 	}
 
 
+<<<<<<< HEAD
 	public void GetRoomTiles(ref List<TileManager> roomTiles)
 	{
 
@@ -661,6 +966,38 @@ public class TileManager : MonoBehaviour {
 		return result;
 
 	}
+=======
+    public void GetRoomTiles(ref List<TileManager> roomTiles)
+    {
+
+        if((objectOnTile  == null || !objectOnTile.blockRooms) && !roomTiles.Contains(this))
+        {
+            roomTiles.Add(this);
+
+            if (coordinates.x > 0)
+            {
+                GridCreator.grid[coordinates.x - 1, coordinates.y].GetRoomTiles(ref roomTiles);
+            }
+
+            if (coordinates.y > 0)
+            {
+                GridCreator.grid[coordinates.x, coordinates.y - 1].GetRoomTiles(ref roomTiles);
+            }
+
+            if (coordinates.x < GridCreator.grid.GetLength(0) - 1)
+            {
+                GridCreator.grid[coordinates.x +1, coordinates.y].GetRoomTiles(ref roomTiles);
+            }
+
+            if (coordinates.y < GridCreator.grid.GetLength(1) - 1)
+            {
+                GridCreator.grid[coordinates.x, coordinates.y +1].GetRoomTiles(ref roomTiles);
+            }
+
+        }
+
+    }
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 
 	bool IsRoomBuildable(List<TileManager> roomTiles)//check if some of tiles in the same enclosed area are already assigned to a room
@@ -684,6 +1021,7 @@ public class TileManager : MonoBehaviour {
      
     }
 
+<<<<<<< HEAD
 	public void OnMouseRightClickOn()
 	{
 		if (CharacterBehaviour.selectedCharacter != null) 
@@ -705,4 +1043,7 @@ public class TileManager : MonoBehaviour {
 			CharacterBehaviour.selectedCharacter.agent.destination = this.transform.position;
 		}
 	}
+=======
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 }

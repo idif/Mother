@@ -11,6 +11,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1202349800664814}
   m_IsPrefabParent: 1
+<<<<<<< HEAD
 --- !u!1 &1024204052539440
 GameObject:
   m_ObjectHideFlags: 1
@@ -43,6 +44,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 --- !u!1 &1202349800664814
 GameObject:
   m_ObjectHideFlags: 0
@@ -51,7 +54,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4939186781958420}
+<<<<<<< HEAD
   - component: {fileID: 114377021831187020}
+=======
+  - component: {fileID: 114096962684253730}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   m_Layer: 0
   m_Name: Zone Wall
   m_TagString: Untagged
@@ -59,6 +66,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1522352041855016
 GameObject:
   m_ObjectHideFlags: 1
@@ -76,6 +84,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 --- !u!1 &1744596701599724
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,15 +94,25 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4803241050529906}
+<<<<<<< HEAD
   - component: {fileID: 65201993843657668}
   - component: {fileID: 208175125777243384}
   m_Layer: 0
   m_Name: Collider
+=======
+  - component: {fileID: 33650648820684912}
+  - component: {fileID: 23896697506746310}
+  - component: {fileID: 65201993843657668}
+  - component: {fileID: 208175125777243384}
+  m_Layer: 0
+  m_Name: Mesh
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &4630640509722692
 Transform:
   m_ObjectHideFlags: 1
@@ -121,6 +141,8 @@ Transform:
   m_Father: {fileID: 4939186781958420}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 --- !u!4 &4803241050529906
 Transform:
   m_ObjectHideFlags: 1
@@ -134,6 +156,7 @@ Transform:
   m_Father: {fileID: 4939186781958420}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+<<<<<<< HEAD
 --- !u!4 &4902638697945516
 Transform:
   m_ObjectHideFlags: 1
@@ -147,6 +170,8 @@ Transform:
   m_Father: {fileID: 4711646270753592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 --- !u!4 &4939186781958420
 Transform:
   m_ObjectHideFlags: 1
@@ -154,6 +179,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1202349800664814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -49.843327, y: 29.623404, z: 87.49326}
   m_LocalScale: {x: 1, y: 200, z: 1}
   m_Children:
@@ -197,20 +223,41 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23848974037472328
+=======
+  m_LocalPosition: {x: -4.1547446, y: 0.7700043, z: 20.846424}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 4803241050529906}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23896697506746310
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1522352041855016}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+=======
+  m_GameObject: {fileID: 1744596701599724}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: fef741df0320d7246bb754678936ecbd, type: 2}
+=======
+  - {fileID: 2100000, guid: d4ad2c48534d7e447b78a1c013e3c3d3, type: 2}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -221,7 +268,10 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< HEAD
   m_StitchLightmapSeams: 0
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -230,11 +280,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!33 &33380916169992722
+=======
+--- !u!33 &33650648820684912
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1024204052539440}
   m_Mesh: {fileID: 4300002, guid: 08aa749bfe017c44e80a1f32f752e34c, type: 3}
 --- !u!33 &33956935902688094
@@ -244,6 +299,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1522352041855016}
   m_Mesh: {fileID: 4300000, guid: 08aa749bfe017c44e80a1f32f752e34c, type: 3}
+=======
+  m_GameObject: {fileID: 1744596701599724}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 --- !u!65 &65201993843657668
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -256,7 +315,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &114377021831187020
+=======
+--- !u!114 &114096962684253730
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -264,11 +327,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1202349800664814}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: ff64e3791ce53374897ad50296ceee6e, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: 10146460bc0fa6443a764d6066e66be8, type: 3}
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
   m_Name: 
   m_EditorClassIdentifier: 
   canBeDestroyed: 0
   blockRooms: 1
+<<<<<<< HEAD
   canBePlacedInLine: 1
   canBePlacedInWalls: 0
   description: 
@@ -281,6 +349,12 @@ MonoBehaviour:
   secondFilter: {fileID: 33380916169992722}
   wallRenderer: {fileID: 23848974037472328}
   secondRenderer: {fileID: 23363551432909468}
+=======
+  energyCost: 0
+  size:
+    x: 1
+    y: 1
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 --- !u!208 &208175125777243384
 NavMeshObstacle:
   m_ObjectHideFlags: 1

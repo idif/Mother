@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\aries\Documents\Projets\MOTHER\MOTHER\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\aries\Documents\Projets\MOTHER\MOTHER\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\aries\Documents\Projets\MOTHER\MOTHER\Temp\bin\Debug\nunit.framework.dll
@@ -36,3 +37,6 @@ C:\Users\aries\Documents\Projets\MOTHER\MOTHER\Temp\bin\Debug\UnityEngine.Spatia
 C:\Users\aries\Documents\Projets\MOTHER\MOTHER\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\aries\Documents\Projets\MOTHER\MOTHER\obj\Debug\Assembly-CSharp.dll
 C:\Users\aries\Documents\Projets\MOTHER\MOTHER\obj\Debug\Assembly-CSharp.pdb
+=======
+C:\Users\aries\Desktop\Mother\MOTHER\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be

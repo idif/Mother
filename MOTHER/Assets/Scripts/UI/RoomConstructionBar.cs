@@ -33,6 +33,7 @@ public class RoomConstructionBar : SingletonBehaviour<RoomConstructionBar> {
 		roomName.text = roomNameText.text;
 	}
 
+<<<<<<< HEAD
 
 	public void ChangeRoomDeco(int decoId){
 
@@ -41,6 +42,8 @@ public class RoomConstructionBar : SingletonBehaviour<RoomConstructionBar> {
 	}
 
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 	public void DisplayRoomPanel(TileManager tile){
 		
 		if (tile.room == null) {
@@ -55,8 +58,11 @@ public class RoomConstructionBar : SingletonBehaviour<RoomConstructionBar> {
 
 		roomName.text = tile.room.name;
 
+<<<<<<< HEAD
 		RoomDecoSelection.Self ().feedbackBackground.localPosition = RoomDecoSelection.Self ().buttons [currentRoom.roomDeco].localPosition;
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 		if (tile.room.currentMood == ChildMood.Normal) {
 
 			roomMood.text = "No special mood for this room";

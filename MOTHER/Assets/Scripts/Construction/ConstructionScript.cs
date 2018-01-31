@@ -21,6 +21,7 @@ public class PropCategory{
 
 }
 
+<<<<<<< HEAD
 [System.Serializable]
 public struct ModelData{//used to represent 3D models
 
@@ -29,6 +30,8 @@ public struct ModelData{//used to represent 3D models
 
 }
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 public class ConstructionScript : SingletonBehaviour<ConstructionScript> {
 
@@ -67,6 +70,7 @@ public class ConstructionScript : SingletonBehaviour<ConstructionScript> {
 
 	[Header("Wall Meshes")]
 
+<<<<<<< HEAD
 	public ModelData column;
 	public ModelData end;
 	public ModelData normalWall;
@@ -75,6 +79,15 @@ public class ConstructionScript : SingletonBehaviour<ConstructionScript> {
 	public ModelData allCorner;
 
 	public Color[] groundColors;
+=======
+	public Mesh column;
+	public Mesh end;
+	public Mesh normalWall;
+	public Mesh corner;
+	public Mesh tCorner;
+	public Mesh allCorner;
+
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 	public static List<TileManager> tilesToBeBuilt = new List<TileManager> ();
 
@@ -150,10 +163,16 @@ public class ConstructionScript : SingletonBehaviour<ConstructionScript> {
 					demoProps [0].SetActive (false);
 				}
 
+<<<<<<< HEAD
 				RotationCheck ();
 
 			}
 
+=======
+			}
+
+			RotationCheck ();
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 		} else if (demoProps.Count > 0) {
 
@@ -234,11 +253,14 @@ public class ConstructionScript : SingletonBehaviour<ConstructionScript> {
 			foreach (TileManager tile in GameManager.Self().selectedTile.tilesInBuildZone) {
 				tile.RenderTile ();
 			}
+<<<<<<< HEAD
 
 			if (ConstructionScript.propID != -1 && ConstructionScript.Self().furnitureList[ConstructionScript.propID].propPrefab.canBePlacedInWalls && GameManager.Self().selectedTile.objectOnTile != null) {
 				GameManager.Self().selectedTile.objectOnTile.EnableRenderers (true);
 			}
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 			GameManager.Self ().selectedTile = null;
 		}
 

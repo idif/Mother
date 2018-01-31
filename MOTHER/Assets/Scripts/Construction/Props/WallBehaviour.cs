@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class WallBehaviour : FurnitureBehaviour {
 
+<<<<<<< HEAD
 	[SerializeField]Transform meshesPivot;
 	[SerializeField] MeshFilter wallFilter;
 	[SerializeField] MeshFilter secondFilter;
 	[SerializeField]MeshRenderer wallRenderer;
 	[SerializeField]MeshRenderer secondRenderer;
+=======
+	[SerializeField] MeshFilter wallFilter;
+	[SerializeField] MeshFilter secondFilter;
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 	void Start(){
 
@@ -17,6 +22,7 @@ public class WallBehaviour : FurnitureBehaviour {
 	}
 
 
+<<<<<<< HEAD
 	bool WallsAreAligned(List<TileManager> neighbourWalls){
 
 		if (neighbourWalls.Count < 2) {
@@ -143,11 +149,22 @@ public class WallBehaviour : FurnitureBehaviour {
 			SetModel (ConstructionScript.Self ().normalWall);
 			secondFilter.gameObject.SetActive (true);
 			AlignToNeighbour (neighbourWalls [0]);
+=======
+	public void UpdateWallMesh(){
+
+		List<TileManager> neighbours = tiles [0].NeighbourTiles ();
+
+		if (neighbours.Count == 2) {
+			
+			wallFilter.mesh = ConstructionScript.Self ().normalWall;
+			secondFilter.gameObject.SetActive (true);
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 		} else {
 
 			secondFilter.gameObject.SetActive (false);
 
+<<<<<<< HEAD
 			switch (neighbourWalls.Count) {
 
 			case 0:
@@ -171,6 +188,24 @@ public class WallBehaviour : FurnitureBehaviour {
 
 			default:
 				SetModel (ConstructionScript.Self ().allCorner);
+=======
+			switch (neighbours.Count) {
+
+			case 0:
+				wallFilter.mesh = ConstructionScript.Self ().column;
+				break;
+
+			case 1:
+				wallFilter.mesh = ConstructionScript.Self ().corner;
+				break;
+
+			case 3:
+				wallFilter.mesh = ConstructionScript.Self ().tCorner;
+				break;
+
+			default:
+				wallFilter.mesh = ConstructionScript.Self ().allCorner;
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 				break;
 
 			}
@@ -179,6 +214,7 @@ public class WallBehaviour : FurnitureBehaviour {
 
 	}
 
+<<<<<<< HEAD
 	void SetModel(ModelData model){
 
 		wallFilter.mesh = model.mesh;
@@ -186,5 +222,7 @@ public class WallBehaviour : FurnitureBehaviour {
 
 	}
 
+=======
+>>>>>>> 6918e9b0878999e1061e8a95b659822a79e570be
 
 }
